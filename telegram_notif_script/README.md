@@ -2,7 +2,7 @@
 
 ### 1. Before using, create a bot in telegram using @BotFather and get token.
 ### 2. Try sending a message via the bot.
-  curl --header 'Content-Type: application/json' --request 'POST' --data '{"chat_id":"{you_id}","text":"test text"}' "https://api.tlgr.org/bot{token}/sendMessage"
+  curl --header 'Content-Type: application/json' --request 'POST' --data '{"chat_id":"{you_id}","text":"test text"}' " https://api.telegram.org/bot{token}/sendMessage"
 ### 3. Use @my_id_bot to know you ID.
 ### 4. Create script file in right dir.
   sudo vim /usr/lib/zabbix/alertscripts/telegram.sh
